@@ -4,5 +4,6 @@
 
 Initially, this project was something I made in highschool for the final project for my APCS class. Since then, I have learned a lot about programming and design of programs. I decided to remake the program from scratch as the original project was very messy and unorganized. This program aims to demonstrate how different sorting algorithms work visually. 
 
-To try the app, download the latest release from the [releases tab](https://github.com/ethanh-roe/Sorting-Alogrithm-Visualizerizer/releases/tag/v1.0)
+To try the app, download the latest release from the [releases tab](https://github.com/ethanh-roe/Sorting-Alogrithm-Visualizerizer/releases/tag/v1.0).
+
 Java version 16 or later is required to run the app.

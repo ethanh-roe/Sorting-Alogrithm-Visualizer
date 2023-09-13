@@ -120,7 +120,7 @@ public class UiInterface extends JPanel {
 	}
 
 	private void initNumElementsSlider() {
-		numElementsSlider.setMinimum(10);
+		numElementsSlider.setMinimum(4);
 		numElementsSlider.setMaximum(1000);
 		numElementsSlider.setValue(MainPanel.numElements);
 
@@ -137,7 +137,6 @@ public class UiInterface extends JPanel {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				System.out.println("scramble");
 				scrambleButtonPressed();
 			}
 
@@ -259,7 +258,6 @@ public class UiInterface extends JPanel {
 
 			@Override
 			public void stateChanged(ChangeEvent e) {
-				System.out.println("speed changed");
 				speedSliderChanged();
 			}
 
@@ -268,7 +266,6 @@ public class UiInterface extends JPanel {
 		numElementsSlider.addChangeListener(new ChangeListener() {
 			@Override
 			public void stateChanged(ChangeEvent e) {
-				System.out.println("num elements changed");
 				numElementsSliderChanged();
 			}
 		});

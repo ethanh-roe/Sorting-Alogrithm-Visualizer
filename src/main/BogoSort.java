@@ -33,6 +33,7 @@ public class BogoSort {
 			tempx2 = lineList.get(i).getx2();
 			lineList.get(i).setxs(lineList.get(rand).getx1(), lineList.get(rand).getx2());
 			lineList.get(rand).setxs(tempx1, tempx2);
+			lineList.swap(lineList, i, rand);
 			MainPanel.writesToArray++;
 		}
 	}
@@ -41,8 +42,8 @@ public class BogoSort {
 		for (int i = 1; i < lineList.getSize(); i++) {
 			MainPanel.comparisons++;
 			if (lineList.get(i).getYSize() < lineList.get(i - 1).getYSize()) {
+				
 				return false;
-
 			}
 
 		}

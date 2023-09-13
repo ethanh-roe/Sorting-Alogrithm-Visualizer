@@ -1,1 +1,1 @@
-# Sorting-Alogrithm-Visualizerizer
+# Sorting-Alogrithm-Visualizer
